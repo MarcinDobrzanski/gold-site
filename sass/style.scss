@@ -4,13 +4,38 @@
 	box-sizing: border-box;
 }
 
-.menu-img {
+.hiro-img {
 	position: relative;
-	height: 700px;
-	width: 1400px;
+
+	img {
+		max-height: 700px;
+		max-width: 1400px;
+	}
 }
 
 .main-menu {
-	display: inline-block;
 	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 1.5rem;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-item {
+	margin-left: 3rem;
+}
+
+.nav-link {
+	font-size: 19px;
+
+	color: white;
 }
