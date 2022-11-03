@@ -4,12 +4,27 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
 .hiro-img {
 	position: relative;
+	display: block;
 
 	img {
+		object-fit: cover;
 		max-height: 700px;
-		max-width: 1400px;
+		width: 100%;
+		object-fit: cover;
 	}
 }
 
@@ -26,16 +41,22 @@
 
 .nav-menu {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
+}
+
+.nav-logo {
+	font-family: 'Kolker Brush', cursive;
+	color: gold;
+	font-size: 50px;
+	font-weight: bold;
 }
 
 .nav-item {
 	margin-left: 3rem;
-}
+	text-transform: uppercase;
 
-.nav-link {
-	font-size: 19px;
-
-	color: white;
+	 a {
+		color: white;
+	 }
 }
