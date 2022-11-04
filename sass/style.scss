@@ -16,6 +16,21 @@ a {
 	text-decoration: none;
 }
 
+.tittle-item {
+	text-align: center;
+	h2 {
+		font-size: 3rem;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	p {
+		font-size: 1rem;
+		font-weight: 100;
+		font-style: italic;
+	}
+}
+
 .hiro-img {
 	position: relative;
 
@@ -91,3 +106,26 @@ a {
 	color: white;
 	margin-bottom: 30px;
 }
+
+.services-item {
+	text-align: center;
+
+	i {
+		position: relative;
+		font-size: 40px;
+		color: gold;
+	}
+
+	i::after {
+		position: absolute;
+		height: 80px;
+		width: 80px;
+		content: '';
+		border: 3px solid gold;
+		border-radius: 50px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
