@@ -38,7 +38,6 @@ a {
 		object-fit: cover;
 		height: 700px;
 		width: 100%;
-		object-fit: cover;
 	}
 }
 
@@ -128,4 +127,33 @@ a {
 		transform: translate(-50%, -50%);
 	}
 }
+.portfolio {
+	background-color: rgb(240, 240, 240);
+}
+
+.portfolio-card {
+	background-color: white;
+	padding: 0;
+	text-align: center;
+}
+
+.portfolio-img {
+	img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+.portfolio-text {
+	h3 {
+		font-weight: bold;
+	}
+	p {
+		padding-top: 10px;
+		font-size: 0.8rem;
+		font-style: italic;
+	}
+}
+
 
